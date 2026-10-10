@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renault Scenic 2001 — Магнитогорск, 250 000 ₽</title>
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Car", "name": "Renault Scenic 2001", "vehicleModelDate": "2001", "mileageFromOdometer": {"@type": "QuantitativeValue", "value": 425000, "unitCode": "KMT"}, "offers": {"@type": "Offer", "price": 250000, "priceCurrency": "RUB", "availability": "InStock"}, "bodyType": "Универсал", "fuelType": "Бензин", "vehicleTransmission": "Механика", "color": "Красный", "itemCondition": "https://schema.org/UsedCondition", "numberOfPreviousOwners": 4, "vehicleIdentificationNumber": "VF1JA1J0524920686"}</script>
+</head>
+<body>
+<header><div class="logo">ГАРАЖ<span>·</span>МАГНИТОГОРСК</div>
+<nav><a href="/">Автомобили</a><a href="/contacts.html">Контакты</a></nav></header>
+<div class="wrap">
+<h1>Renault Scenic 2001 <span class="badge sale">В продаже</span></h1>
+<p class="sub">Частная продажа · Магнитогорск</p>
+<div class="ph" style="height:280px;background:radial-gradient(ellipse at 50% 30%,#1c1c20,#0a0a0b);display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px"><svg width="220" height="100" viewBox="0 0 260 120"><path d="M20 95 Q25 60 60 55 Q75 25 130 22 Q185 25 200 55 Q235 60 240 95 Z" fill="#1a1a1d" stroke="#3a3a3e"/><circle cx="70" cy="95" r="16" fill="#0a0a0b" stroke="#3a3a3e"/><circle cx="190" cy="95" r="16" fill="#0a0a0b" stroke="#3a3a3e"/></svg></div>
+<table>
+<tr><td>Госномер</td><td>У429АН774</td></tr>
+<tr><td>VIN</td><td>VF1JA1J0524920686</td></tr>
+<tr><td>Пробег</td><td>425 000 км</td></tr>
+<tr><td>Цвет</td><td>красный</td></tr>
+<tr><td>Тип</td><td>легковой универсал</td></tr>
+<tr><td>Категория</td><td>B/M1</td></tr>
+<tr><td>Экокласс</td><td>второй / 2</td></tr>
+<tr><td>Масса</td><td>1330 кг снаряжённая / 1800 кг максимальная</td></tr>
+<tr><td>Коробка</td><td>МКПП</td></tr>
+<tr><td>Комплектация</td><td>полная</td></tr>
+<tr><td>Цена</td><td><b>250 000 ₽</b></td></tr>
+</table>
+<h2>Состояние</h2>
+<p>Двигатель в отличном состоянии. МКПП. Подвеска перебрана. Вложения не требуются.</p>
+<h2>История</h2>
+<p>Около 4 владельцев. ДТП не было. Есть сервисная книжка.</p>
+<h2>Причина продажи</h2>
+<p>Есть другой автомобиль.</p>
+<div class="note">Цена указана за автомобиль целиком. Если вы готовы купить только часть автомобиля (например, колёса отдельно), цена может быть разбита между двумя покупателями: например, один покупает колёса за 5% от цены, второй — автомобиль без колёс за 95%.</div>
+<h2>Частые вопросы</h2>
+<div class="faq">
+<details><summary>Как машина ведёт себя на трассе?</summary><p>Для одномоторника с высоким кузовом — вполне достойно до 130 км/ч. Выше начинается ветровой шум. Для семейных поездок по области — оптимальный вариант.</p></details>
+<details><summary>Реальный расход топлива в городе?</summary><p>Около 9–10 л на сотню зимой, 8 летом. На трассе — 6,5–7,5 л.</p></details>
+<details><summary>Что ломается чаще всего?</summary><p>У Scenic первого поколения типичны: катушки зажигания, датчик положения дросселя, стойки стабилизатора, подшипники ступиц. Подвеска на этой машине уже перебрана.</p></details>
+<details><summary>Сколько стоит обслуживание в год?</summary><p>Ориентировочно 20–30 тыс. ₽ в год с учётом возраста: масло, фильтры, колодки, возможные мелочи по электрике.</p></details>
+<details><summary>Можно ли ехать в дальнее путешествие сразу после покупки?</summary><p>Да. Подвеска перебрана, двигатель в отличном состоянии — вложений не требуется.</p></details>
+</div>
+<h2>Задать вопрос</h2>
+<div class="chat">
+<textarea id="qtext" placeholder="Ваш вопрос (имя и телефон указывать не обязательно)"></textarea>
+<button class="btn" onclick="askQuestion('renault-scenic-2001')">Отправить</button>
+</div>
+<script>applyState('renault-scenic-2001');</script>
+</div>
+
+<footer>
+  <div>8 963 0 966 966 · Магнитогорск</div>
+  <div><button id="adminBtn" onclick="adminLogin()" title="admin">.</button></div>
+</footer>
+<script>
+const CARS = ['toyota-camry-1991','renault-scenic-2001'];
+function getState(){ return JSON.parse(localStorage.getItem('carState')||'{}'); }
+function adminLogin(){
+  if(sessionStorage.getItem('admin')==='1'){ openAdmin(); return; }
+  const p = prompt('Пароль:');
+  if(p==='edohod2026'){ sessionStorage.setItem('admin','1'); openAdmin(); } else if(p!==null){ alert('Неверный пароль'); }
+}
+function openAdmin(){
+  let s = getState(), car = CARS[0];
+  let html = '<div class="admin-panel"><h2>Админ-панель</h2><label>Автомобиль</label><select id="adCar">'+CARS.map(c=>'<option value="'+c+'">'+c+'</option>').join('')+'</select><label>Статус</label><select id="adStatus"><option value="sale">В продаже</option><option value="reserved">Забронировано</option><option value="sold">Продано</option></select><label>Дата окончания брони</label><input type="date" id="adDate"><button class="btn" onclick="saveState()">Сохранить</button><div id="adMsg" style="color:#9fd0a0;margin-top:10px"></div></div>';
+  document.querySelector('.wrap').insertAdjacentHTML('afterbegin', html);
+  const sel = document.getElementById('adCar');
+  const load = ()=>{ const st = s[sel.value]||{status:'sale',date:''}; document.getElementById('adStatus').value=st.status; document.getElementById('adDate').value=st.date||''; };
+  sel.onchange = load; load();
+}
+function saveState(){
+  const s = getState();
+  s[document.getElementById('adCar').value] = { status: document.getElementById('adStatus').value, date: document.getElementById('adDate').value };
+  localStorage.setItem('carState', JSON.stringify(s));
+  document.getElementById('adMsg').textContent = 'Сохранено. Обновите страницу автомобиля.';
+}
+function applyState(slug){
+  const st = getState()[slug];
+  if(!st) return;
+  if(st.status==='reserved'){
+    const d = st.date ? new Date(st.date).toLocaleDateString('ru-RU') : '';
+    document.body.insertAdjacentHTML('beforeend','<div class="watermark"><div>Забронировано до '+d+'</div></div>');
+  }
+  if(st.status==='sold'){
+    document.querySelector('.wrap').innerHTML = '<div class="sold-ph"><svg width="260" height="120" viewBox="0 0 260 120"><path d="M20 95 Q25 60 60 55 Q75 25 130 22 Q185 25 200 55 Q235 60 240 95 Z" fill="#1a1a1d" stroke="#3a3a3e"/><circle cx="70" cy="95" r="16" fill="#0a0a0b" stroke="#3a3a3e"/><circle cx="190" cy="95" r="16" fill="#0a0a0b" stroke="#3a3a3e"/></svg><span>Продано</span></div>';
+  }
+}
+function askQuestion(slug){
+  const last = localStorage.getItem('q_'+slug);
+  if(last && Date.now()-last < 3600000){ alert('Повторное сообщение возможно через некоторое время'); return; }
+  const t = document.getElementById('qtext').value.trim();
+  if(!t) return;
+  localStorage.setItem('q_'+slug, Date.now());
+  document.getElementById('qtext').value='';
+  alert('Вопрос отправлен. Ответ появится здесь после проверки продавцом.');
+}
+</script>
+
+</body></html>
