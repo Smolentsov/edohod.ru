@@ -1,0 +1,15 @@
+# Личные автомобили из Магнитогорска
+> Продажа личных автомобилей. Не автосалон.
+
+## Автомобили
+- Toyota Camry 1991: /cars/toyota-camry-1991.html
+- Renault Scenic 2001: /cars/renault-scenic-2001.html
+
+## Контакты
+- Телефон: 8 963 0 966 966
+- Город: Магнитогорск
+
+## Служебные файлы
+- robots.txt: /robots.txt
+- sitemap.xml: /sitemap.xml
+- llms-full.txt: /llms-full.txt
